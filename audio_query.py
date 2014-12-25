@@ -16,7 +16,7 @@ import essentia
 from essentia.standard import *
 
 c = freesound.FreesoundClient()
-c.set_token("7a601680b44a94be17a11d79fe36c83790d43b63","token")
+c.set_token("<YOUR_API_TOKEN>","token")
 
 class SoundQueryServer(resource.Resource):
     isLeaf = True
